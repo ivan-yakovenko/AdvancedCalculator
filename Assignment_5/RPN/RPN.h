@@ -1,0 +1,14 @@
+//
+// Created by Ivan Yakovenko on 15.07.2024.
+//
+
+#ifndef ASSIGNMENT_5_PROGRAMMING_PARADIGMS_RPN_H
+#define ASSIGNMENT_5_PROGRAMMING_PARADIGMS_RPN_H
+
+
+class RPN {
+
+};
+
+
+#endif //ASSIGNMENT_5_PROGRAMMING_PARADIGMS_RPN_H

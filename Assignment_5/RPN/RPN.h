@@ -1,14 +1,13 @@
-//
-// Created by Ivan Yakovenko on 15.07.2024.
-//
+#pragma once
+#include "../Stack/Stack.cpp"
 
-#ifndef ASSIGNMENT_5_PROGRAMMING_PARADIGMS_RPN_H
-#define ASSIGNMENT_5_PROGRAMMING_PARADIGMS_RPN_H
-
+using namespace std;
 
 class RPN {
-
+public:
+    string infixToPostfix(string expression);
+    bool isOperator(char token);
+    bool isOperand(char token);
+    int getPriority(char token);
+    double rpn(string tokens);
 };
-
-
-#endif //ASSIGNMENT_5_PROGRAMMING_PARADIGMS_RPN_H

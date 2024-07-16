@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Assignment_5_Programming_Paradigms"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/ivanyakovenko/CLionProjects/Assignment_5-Programming_Paradigms/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ivanyakovenko/CLionProjects/Assignment_5-Programming_Paradigms/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ivanyakovenko/CLionProjects/Assignment_5-Programming_Paradigms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ivanyakovenko/CLionProjects/Assignment_5-Programming_Paradigms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivanyakovenko/CLionProjects/Assignment_5-Programming_Paradigms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Assignment_5_Programming_Paradigms">
+				<Option output="/Users/ivanyakovenko/CLionProjects/Assignment_5-Programming_Paradigms/cmake-build-debug/Assignment_5_Programming_Paradigms" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ivanyakovenko/CLionProjects/Assignment_5-Programming_Paradigms/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ivanyakovenko/CLionProjects/Assignment_5-Programming_Paradigms/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment_5_Programming_Paradigms"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ivanyakovenko/CLionProjects/Assignment_5-Programming_Paradigms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ivanyakovenko/CLionProjects/Assignment_5-Programming_Paradigms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivanyakovenko/CLionProjects/Assignment_5-Programming_Paradigms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Assignment_5_Programming_Paradigms/fast">
+				<Option output="/Users/ivanyakovenko/CLionProjects/Assignment_5-Programming_Paradigms/cmake-build-debug/Assignment_5_Programming_Paradigms" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ivanyakovenko/CLionProjects/Assignment_5-Programming_Paradigms/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ivanyakovenko/CLionProjects/Assignment_5-Programming_Paradigms/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment_5_Programming_Paradigms/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ivanyakovenko/CLionProjects/Assignment_5-Programming_Paradigms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ivanyakovenko/CLionProjects/Assignment_5-Programming_Paradigms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivanyakovenko/CLionProjects/Assignment_5-Programming_Paradigms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/ivanyakovenko/CLionProjects/Assignment_5-Programming_Paradigms/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ivanyakovenko/CLionProjects/Assignment_5-Programming_Paradigms/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ivanyakovenko/CLionProjects/Assignment_5-Programming_Paradigms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ivanyakovenko/CLionProjects/Assignment_5-Programming_Paradigms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivanyakovenko/CLionProjects/Assignment_5-Programming_Paradigms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/ivanyakovenko/CLionProjects/Assignment_5-Programming_Paradigms/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ivanyakovenko/CLionProjects/Assignment_5-Programming_Paradigms/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ivanyakovenko/CLionProjects/Assignment_5-Programming_Paradigms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ivanyakovenko/CLionProjects/Assignment_5-Programming_Paradigms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivanyakovenko/CLionProjects/Assignment_5-Programming_Paradigms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/ivanyakovenko/CLionProjects/Assignment_5-Programming_Paradigms/Assignment_5/RPN/RPN.cpp">
+			<Option target="Assignment_5_Programming_Paradigms"/>
+		</Unit>
+		<Unit filename="/Users/ivanyakovenko/CLionProjects/Assignment_5-Programming_Paradigms/Assignment_5/RPN/RPN.h">
+			<Option target="Assignment_5_Programming_Paradigms"/>
+		</Unit>
+		<Unit filename="/Users/ivanyakovenko/CLionProjects/Assignment_5-Programming_Paradigms/Assignment_5/Stack/Stack.cpp">
+			<Option target="Assignment_5_Programming_Paradigms"/>
+		</Unit>
+		<Unit filename="/Users/ivanyakovenko/CLionProjects/Assignment_5-Programming_Paradigms/Assignment_5/Stack/Stack.h">
+			<Option target="Assignment_5_Programming_Paradigms"/>
+		</Unit>
+		<Unit filename="/Users/ivanyakovenko/CLionProjects/Assignment_5-Programming_Paradigms/Assignment_5/main.cpp">
+			<Option target="Assignment_5_Programming_Paradigms"/>
+		</Unit>
+		<Unit filename="/Users/ivanyakovenko/CLionProjects/Assignment_5-Programming_Paradigms/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

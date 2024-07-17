@@ -38,13 +38,16 @@ string RPN::infixToPostfix(string expression) {
     string currentNumber;
     Stack<string> functions;
     string currentFunction;
+    bool negativeNumber = true;
 
     for (char element : expression) {
-        if(isOperand(element)) {
+        if(isOperand(element) || element == '-' && negativeNumber) {
             currentNumber += element;
+            negativeNumber = false;
         }
         else if(isLetter(element)) {
             currentFunction += element;
+            negativeNumber = false;
         }
         else {
             if(!currentNumber.empty()) {
@@ -57,6 +60,7 @@ string RPN::infixToPostfix(string expression) {
             }
             if(element == '(') {
                 operators.push(element);
+                negativeNumber = true;
             }
             else if(element == ',') {
                 while (!operators.isEmpty() && operators.getTop() != '(') {
@@ -64,6 +68,7 @@ string RPN::infixToPostfix(string expression) {
                     postfix += ' ';
                     operators.pop();
                 }
+                negativeNumber = true;
             }
             else if(element == ')') {
                 while (!operators.isEmpty() && operators.getTop() != '(') {
@@ -81,6 +86,7 @@ string RPN::infixToPostfix(string expression) {
                     postfix += ' ';
                     functions.pop();
                 }
+                negativeNumber = false;
             }
             else if(isOperator(element)) {
                 while(!operators.isEmpty() && getPriority(operators.getTop()) >= getPriority(element) && operators.getTop() != '(') {
@@ -89,6 +95,7 @@ string RPN::infixToPostfix(string expression) {
                     operators.pop();
                 }
                 operators.push(element);
+                negativeNumber = true;
             }
         }
     }

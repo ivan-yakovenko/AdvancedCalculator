@@ -1,0 +1,14 @@
+//
+// Created by Ivan Yakovenko on 17.07.2024.
+//
+
+#ifndef ASSIGNMENT_5_PROGRAMMING_PARADIGMS_MAP_H
+#define ASSIGNMENT_5_PROGRAMMING_PARADIGMS_MAP_H
+
+
+class Map {
+
+};
+
+
+#endif //ASSIGNMENT_5_PROGRAMMING_PARADIGMS_MAP_H

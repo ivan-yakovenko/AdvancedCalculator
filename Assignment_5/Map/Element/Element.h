@@ -1,0 +1,16 @@
+//
+// Created by Ivan Yakovenko on 17.07.2024.
+//
+
+#ifndef ASSIGNMENT_5_PROGRAMMING_PARADIGMS_ELEMENT_H
+#define ASSIGNMENT_5_PROGRAMMING_PARADIGMS_ELEMENT_H
+
+
+
+class Element {
+
+};
+
+
+
+#endif //ASSIGNMENT_5_PROGRAMMING_PARADIGMS_ELEMENT_H

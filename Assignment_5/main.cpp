@@ -5,7 +5,8 @@ using namespace std;
 
 int main() {
     RPN rpn;
-    string expression = "5 + 3 * 2";
+    string expression;
+    getline(cin, expression);
     string postfix = rpn.infixToPostfix(expression);
     cout << postfix << endl;
     double solver = rpn.rpn(postfix);

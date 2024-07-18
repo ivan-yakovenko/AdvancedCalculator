@@ -115,8 +115,6 @@ string RPN::infixToPostfix(string expression) {
 
 double RPN::rpn(string tokens) {
     Stack<double> rpntokens;
-    string currentNumber;
-    string currentFunction;
     istringstream tokenStream(tokens);
     string token;
 
